@@ -1,10 +1,10 @@
 <script setup lang="ts">
 definePageMeta({
-  layout: false,
+  layout: "my-layout",
 });
 </script>
 <template>
-  <NuxtLayout name="my-layout">
-    <div>Hello world!</div>
+  <NuxtLayout>
+    <div>Hello world! (Layout defined in <code>definePageMeta</code>)</div>
   </NuxtLayout>
 </template>
